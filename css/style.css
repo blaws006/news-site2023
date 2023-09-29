@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background-color: #F1ECE4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #EAB996;
+}
+
+nav {
+    margin-top: 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 700;
+
+    
+}
+
+.header {
+    text-align: center;
+    color: #CB7666;
+
+}
+
+#newsBtn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: #0C0C1E;
+    font-weight: 800;
+}
+
+
+
+.articleHeadline {
+    font-size: 1em;
+
+}
+
+.articleHeadline a {
+    text-decoration: none;
+    color: #CB7666;
+}
+
+#news {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleContainer {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 5px #EAB996;
+}
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    padding: 20px;
+}
+
+
+
+.image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.articleImg {
+    width: 200px;
+    height: 200px
+}
+
+@media screen and (max-width: 600px) {
+    .articleContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .article {
+        width: 80%;
+        display: flex;
+        padding: 0;
+    }
+    .image {
+        
+        width: 100%;
+    
+    }
+    .articleImg {
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+        max-height: 200px
+    }
+
+    nav ul {
+        flex-direction: column;
+        
+    }
+    li {
+        margin: 10px 0;
+    }
+}
