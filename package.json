@@ -1,0 +1,16 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "A simple news website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open"
+  },
+  "keywords": [],
+  "author": "Brandon Lawson",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
