@@ -15,9 +15,7 @@ window.addEventListener('load', function() {
 function categoryFilter (e) {
     e.preventDefault();
     category = e.target.className + '';
-    
     const url = `https://newsapi.org/v2/top-headlines?category=${category}&country=us&apiKey=${apiKey}`;
-    console.log(url)
     fetchNews(url)
 }
 
